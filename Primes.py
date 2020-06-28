@@ -28,9 +28,6 @@ except:
          f.close()
          return primes[index]
       
-         
-
-
    def is_prime(num):
       if num in primes:
          return True
@@ -41,8 +38,6 @@ except:
          i+=1
       return True
       
-          
-
    with open("saved_primes.txt", 'r') as saved_primes:
       try:
          primes = eval(saved_primes.readline())
