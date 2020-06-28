@@ -40,7 +40,6 @@ def branch(x,y):
     return False
 
 def succ(x,y):
-    #print(f"x,y in succ: {x},{y}")
     if skip(x,y):
         return pair_encode(l(x)+1, r(x))
     elif incr(x,y):
