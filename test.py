@@ -6,10 +6,6 @@ IF Z1 != 0 GOTO A2
 Y <- Y + 1
 IF X1 != 0 GOTO A1"""
 
-program = """
-Y <- Y + 1
-Y <- Y + 1
-"""
 
 from main import *
 
